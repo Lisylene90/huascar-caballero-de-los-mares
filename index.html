@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Huáscar: El Caballero de los Mares · Lizbeth Huaman</title>
+  <meta name="description" content="Videojuego multijugador controlado por voz, basado en los combates navales de Iquique y Angamos (1879). Autora: Lizbeth Huaman.">
+  <link rel="icon" href="assets/sprites/icono.png">
+  <style>
+    html, body { margin: 0; height: 100%; background: #04070f; overflow: hidden; }
+    body { display: flex; align-items: center; justify-content: center; }
+    canvas { image-rendering: pixelated; image-rendering: crisp-edges; box-shadow: 0 0 40px rgba(0,0,0,0.8); cursor: pointer; }
+  </style>
+</head>
+<body>
+  <canvas id="juego" width="960" height="540"></canvas>
+  <script src="js/atlas.js"></script>
+  <script src="js/motor.js"></script>
+  <script src="js/voz.js"></script>
+  <script src="js/entidades.js"></script>
+  <script src="js/niveles.js"></script>
+  <script src="js/escenas.js"></script>
+</body>
+</html>
